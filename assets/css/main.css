@@ -161,7 +161,7 @@ h6 {
   margin: 15px auto;
   display: block;
   width: 120px;
-  border: 8px solid color-mix(in srgb, var(--default-color), transparent 85%);
+  border: 8px solid color-mix(in srgb, #149ddd, transparent 70%);
 }
 
 .header .logo {
@@ -564,7 +564,7 @@ section,
 
 .hero:before {
   content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 70%);
+  background: color-mix(in srgb, #149ddd, transparent 60%);
   position: absolute;
   inset: 0;
   z-index: 2;
