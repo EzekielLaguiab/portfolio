@@ -2,476 +2,267 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Ezekiel Portfolio</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <link href="assets/img/picture2.jpg" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <!-- Font Awesome Icons -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-
-<!-- Bootstrap Icons -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ezekiel Laguiab</title>
+  <link href="assets/images/picture2.jpg" rel="icon">
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- AOS CSS -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
-<body class="index-page">
-
-  <header id="header" class="header dark-background d-flex flex-column">
-    <i class="header-toggle d-xl-none bi bi-list"></i>
-
-    <div class="profile-img">
-      <img src="assets/img/picture2.jpg" alt="" class="img-fluid rounded-circle">
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg sticky-top custom-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <!-- <img src="assets/images/picture2.jpg" alt="Logo" style="height: 40px;"> Replace with your logo -->
+        Portfolio
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tools">Tools</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
     </div>
+  </nav>
 
-    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
-      <h1 class="sitename">Ezekiel Laguiab</h1>
-    </a>
 
-    <div class="social-links text-center">
+  <!-- hero section -->
+  <section id="hero" class="hero" style="height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center; position: relative;">
+    <div class="container d-flex flex-column flex-md-row align-items-center justify-content-center" data-aos="fade-down">
+      <!-- Image Section -->
+      <div class="hero-image" style="margin-right: 30px;">
+        <img src="assets/images/picture2.jpg" alt="Ezekiel Laguiab" >
+      </div>
+      <!-- Text Section -->
+      <div class="hero-text">
+        <h1 style="font-size: 3rem; font-weight: bold;">Hello there!</h1>
+        <h2 style="font-size: 2rem; margin-top: 10px;">I'm <span style="color: blue;">Ezekiel Laguiab</span>, a Web Developer</h2>
+        <p style="margin-top: 20px; font-size: 1.2rem;">Passionate about creating responsive, dynamic,<br> and user-friendly websites to bring your ideas to life.</p>
+        <div class="social-links text-center">
       
-      <a href="https://facebook.com/Ezekiel.laguiab1127" class="facebook"><i class="bi bi-facebook" title="Facebook"></i></a>
-      <a href="https://linkedin.com/in/ezekiel-laguiab-3755b3327" class="linkedin"><i class="bi bi-linkedin" title="LinkedIn"></i></a>
+            <a href="https://facebook.com/Ezekiel.laguiab1127" class="facebook"><i class="bi bi-facebook" title="Facebook"></i></a>
+            <a href="https://linkedin.com/in/ezekiel-laguiab-3755b3327" class="linkedin"><i class="bi bi-linkedin" title="LinkedIn"></i></a>
+          </div>
+        <a href="#about" class="btn btn-primary mt-4 mb-4" style="padding: 10px 20px; font-size: 1rem;">Learn More About Me</a>
+      </div>
     </div>
+  </section>
+  
+  
 
-    <nav id="navmenu" class="navmenu">
-      <ul>
-        <!-- <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li> -->
-        <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
-        <li><a href="#services"><i class="bi bi-file-earmark-text navicon"></i> Services</a></li>
-        <li><a href="#tools"><i class="bi bi-gear navicon"></i> Tools</a></li>
-        <li><a href="#skills"><i class="bi bi-list navicon"></i> Skills</a></li>
-        <li><a href="#project"><i class="bi bi-list-task navicon"></i> Project</a></li>
-        <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
-      </ul>
-    </nav>
-
-  </header>
-
-  <main class="main">
-
-    <!-- About Section -->
-    <section id="about" class="about section">
-      <div class="container section-title" data-aos="fade-right">
-        <h2>About</h2>
-        <div class="container" style="text-align: justify; font-size: large;" ><br>
-          <p>I'm a Fresh graduate of <span style="color: #149ddd;">Computer Engineering</span> with a passion of for technology and
-            problem solving. My academic journey has equipped me with a solid foundation in both
-            hardware and software, allowing me to develop a diverse skills set in technical support,
-            networking, hardware maintenance, and web development. </p> <br>
-        <p>During my time at university, I worked on several projects, including an image processing
-            apllication using YOLOv8 that enhance my understanding of machine learning and data analysis.
-        </p> <br>
-        <p>
-            As I imbark on my professional journey, I am eager to contribute my skills and knowledge to
-            forward-thinking company, where I can continue to learn, grow, and make meaningful contribution.
-        </p>
+  <!-- About Section -->
+  <section id="about" class="" style="position: relative; overflow: hidden;">
+    <div class="container mt-3"  style="z-index: 2; position: relative;">
+      <div class="row">
+        <div class="col-md-6 text-center">
+          <div class="about-image-wrapper" data-aos="fade-right">
+            <img src="assets/images/picture1.jpg" alt="Your Image" >
+          </div>
         </div>
-        
-      </div>
-
-    </section><!-- /About Section -->
-
-
-    <!-- services Section -->
-    <section id="services" class="services section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-right">
-        <h2>Services</h2>
-        <div class="container">
-
-            <div class="row">
-    
-              <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
-                <h4>Web Development</h4>
-                <ul>
-                  <li>Custom website solutiopns development using Codeigniter and PHP.</li>
-                  <li>Expertise in creating e-commerce platform using Wordpress with a Woocommerce plugin and Shopify.</li>
-                  <li>Responsive design for a seamless user experience across devices.</li>
-                  <li>Designing and managing relational database using MySQL to ensure efficient data handling and security.</li>
-                </ul>
-              </div>
-    
-              <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
-                <h4>Technical Support and Networking</h4>
-                <ul>
-                  <li>Troubleshooting hardware and software issues. </li>
-                  <li>Network setup and maintenace, including LAN/Wan configuration.</li>
-                  <li>System diagnostics and technical support for various platforms.</li>
-                </ul>
-              </div>
-    
-            </div>
-    
-          </div>
-        </div><!-- End Section Title -->
-
-        
-        
-    </section>
-
-    <!-- tools section -->
-    <section id="tools" class="skills section">
-      <div class="container section-titles" >
-        <h2>Tools</h2>
-        <div class="row">
-          <div class="col-lg-12 " data-aos="fade-right">
-            <img src="html5.png" alt="" class="tool-icon">
-            <img src="css.png" alt="" class="tool-icon">
-            <img src="bootstrap.png" alt="" class="tool-icon">
-            <img src="php.png" alt="" class="tool-icon">
-          </div>
-          <div class="col-lg-12 " data-aos="fade-left">
-            <img src="mysql.png" alt="" class="tool-icon">
-            <img src="vscode.png" alt="" class="tool-icon">
-            <img src="github.png" alt="" class="tool-icon">
-            <img src="xampp.png" alt="" class="tool-icon">
+        <div class="col-md-6">
+          <h2 class="section-title" data-aos="fade-right">About Me</h2>
+          <div class="container"  data-aos="fade-left"style="text-align: justify; font-size: large;" ><br>
+            <p>I'm a Fresh graduate of <span style="color: #149ddd;">Computer Engineering</span> with a passion of for technology and
+              problem solving. My academic journey has equipped me with a solid foundation in both
+              hardware and software, allowing me to develop a diverse skills set in technical support,
+              networking, hardware maintenance, and web development. </p> 
+           <br>
+          <p>
+              As I imbark on my professional journey, I am eager to contribute my skills and knowledge to
+              forward-thinking company, where I can continue to learn, grow, and make meaningful contribution.
+          </p>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="skills section light-background">
-
-        <!-- Section Title -->
-        <div class="container section-title" >
-          <h2>Skills</h2> 
-          <div class="container"  >
-  
-            <div class="row skills-content skills-animation">
-    
-              <div class="col-lg-6" data-aos="fade-right">
-                
-                <h4  style="color: #149ddd;">Technical Skills</h4>
-
-                <ul>
-                    <li>
-                        <p> <b>Hardware Engineering:</b> Installation, Maintenance, and troubleshooting of computer 
-                            systems and peripherals.
-                        </p> <br>
-                    </li>
-                    <li>
-                        <p><b>Networking:</b> Proficient in TCP/IP, LAN/WAN setup, and network troubleshooting.
-                        </p> <br>
-                    </li>
-                    <li>
-                        <p><b>Web Development:</b> HTML, CSS (Bootsrap), PHP (Codeigniter), MySQL and Basic 
-                          understanding of WordPress.
-                        </p> <br>
-                    </li>
-                    <li>
-                        <p><b>Microsoft Office:</b> (MS Word, Excel, PowerPoint).
-                        </p>
-                    </li>
-                </ul>
-              </div>
-
-              <div class="col-lg-6" data-aos="fade-left" > 
-                <h4  style="color: #149ddd;">Soft Skills</h4>
-
-                <ul>
-                    <li>
-                        <p> <b>Problem solving:</b> Strong analytical and troubleshooting abilities and resolving
-                            technical issues.
-                        </p> <br>
-                    </li>
-                    <li>
-                        <p><b>Collaborative:</b> Effective team player with excellent
-                            communication skills, able to work well in collaborative environments.
-                        </p> <br>
-                    </li>
-                    <li>
-                        <p><b>Adaptability:</b> Quick learner who can easily adapt to new technologies and methodologies.
-                        </p> <br>
-                    </li>
-                    <li>
-                        <p><b>Time management:</b> Capable of handling multiple tasks and projects efficiently to meet deadlines.  
-                        </p>
-                    </li>
-                </ul>
-              </div>
-            </div>
-    
-          </div>
-          
+  <!-- Services Section -->
+  <section id="services" class="py-5 bg-light">
+    <div class="container" >
+      <h2 class="section-title" data-aos="fade-down">Services</h2>
+      <div class="row">
+        <div class="col-md-4" data-aos="fade-right">
+            <h4>Web Development</h4>
+            <ul>
+              <li>Custom website solutiopns development using Codeigniter and PHP.</li>
+              <li>Expertise in creating e-commerce platform using Wordpress with a Woocommerce plugin and Shopify.</li>
+              <li>Responsive design for a seamless user experience across devices.</li>
+              <li>Designing and managing relational database using MySQL to ensure efficient data handling and security.</li>
+            </ul>
         </div>
-      </section>
-
-      <!-- certification section -->
-    <section id="certification" class="skills section">
-          <div class="container section-title" data-aos="fade-right">
-              <h2>Certification</h2>
-              <div class="col-lg-12">
-                  <ul>
-                  <li>National Certificate II in Computer Systems Servicing (NCII CSS)</li>
-                  </ul>
-              </div>    
-          </div>
-      </section>
-    </section>
-    <!-- project section -->
-    <section id="project" class="projects section">
-        <div class="container section-title" data-aos="fade-right">
-          <h2>Projects</h2>
-
-              <div class="row skills-content skills-animation">
-                  <div class="col-lg-6">
-                      <div>
-                        <h4><b  style="color: #149ddd;">Project 1:</b> <br> Thin Can Vendo Machine</h4>
-                          <img style="border-radius: 10px;" src="assets/img/Thin can Vendo machine (1).png" class="img-fluid" alt="project 1" id="img1" >
-                      </div>
-                  </div>
-                  <div class="col-lg-6">
-                    <div><br>
-                      <h4><b style="color: #149ddd;">Description:</b></h4>
-                    </div> 
-                    <div>
-                      <p style="text-align: justify; padding-right: 10px;">
-                        The projects explores an innovative approach to provide internet access 
-                        on campus using recycled tin cans. Given the critical need for reliable 
-                        internet connectivity among students for academic purposes, the project 
-                        aims to bridge this gap by offering internet in exchange for tin cans, 
-                        encouraging recycling while addressing connectivity issues. 
-                      </p> <br>
-                      <button id="modalbtn" style="border-radius: 10px; background-color: #149ddd; color: white;">See more details</button>
-                    </div>
-  
-                    <div id="modal">
-                          <div id="modal-content" style="text-align: justify;">
-                            <div id="close">
-                              &times;
-                            </div>
-                            <div id="content2">
-                              <b>Tin Can Vendo Machine Project:</b>
-                              <br>
-  
-                              <p>The project uses an exploratory and experimental 
-                                design to evaluate the effectiveness of providing 
-                                internet access via tin cans. Instead of coins, students 
-                                can exchange tin cans for internet time and promoting recycling.
-                               <br> <br>
-                               <b>Tools and Equipment:</b>
-                                <ul>
-                                  <li>Servo motor</li>
-                                  <li>Jumper wires</li>
-                                  <li>Arduino Uno</li>
-                                  <li>ESP32 Cam</li>
-                                  <li>Stepper down 12v-5v</li>
-                                  <li>Orange Pi One</li>
-                                  <li>USB to LAN adapter</li>
-                                  <li>RJ45 cables</li>
-                                  <li>Router and Modem</li>
-                                </ul>
-                               </p>
-                          </div>
-                        </div>
-                    </div>
-  
-  
-  
-  
-                  </div>
-              </div> <br> <br><br><br><br><br>
-                  
-
-              <div class="row skills-content skills-animation">
-                  <div class="col-lg-6">
-                    <div>
-                      <h4><b  style="color: #149ddd;">Project 2: <br> </b>Performance Investigation of Developed Rice Variant Classifier</h4>
-                        <img style="border-radius: 10px;" src="assets/img/Rice Classifier (1).png" class="img-fluid" alt="project 1" id="img1" >
-                    </div>
-                </div>
-                
-                <div class="col-lg-6">
-                  <div><br>
-                    <h4> <b  style="color: #149ddd;">Description:</b></h4>
-                  </div> 
-                  <div>
-                    <p style="text-align: justify; padding-right: 10px;">
-                      The Rice Variant Classifier project aims to assist the rice industry in Tacurong City, 
-                      Sultan Kudarat, by using image processing to classify different rice variants. 
-                    </p> <br>
-                    <button id="modalbtn2" style="border-radius: 10px; background-color: #149ddd; color: white;">See more details</button>
-                  </div>
-
-                  <div id="modal2">
-                        <div id="modal-content2" style="text-align: justify;">
-                          <div id="close2">
-                            &times;
-                          </div>
-                          <div id="content2">
-                            <b>Rice Variant Classifier Project:</b>
-                            <br>
-                            <p>The system 
-                              combines hardware and software, where rice samples are manually placed in the machine, and 
-                              computer vision is used to classify the variants. Initially, a webcam was used, but due to 
-                              limited resolution, a cellphone camera was adopted for improved accuracy. The classifier 
-                              achieved a 99% success rate, proving to be an efficient solution for identifying rice variants.</p><br>
-
-                            <p><b>General Objective:</b>
-                            <br>
-                             Create a rice classifier model to categorize rice seedlings
-                             into distinct variants based on visual attributes. 
-                            </p>
-                             <br>
-                             <p><b>Specific Objectives:</b>
-                              <ul>
-                                <li>Use a Machine Learning Algorithm to develop the classification model.</li>
-                                <li>Classify rice seedlings into RC160, RC438, and RC440 varieties.</li>
-                                <li>Display the quality percentage of the classification.</li>
-                                <li>Evaluate the system for accuracy, precision, recall, and acceptability.</li>
-                              </ul></p>
-
-                            <p><b>Significance of the Study:</b> <br> The project aids the rice industry in Tacurong
-                               City by enabling farmers, buyers, and sellers to classify rice variants efficiently. 
-                               It simplifies identifying rice types like RC160, RC438, and RC440 using image processing.</p>
-                             <br>
-                            <p><b>Scope and Limitation: </b><br> The project focuses on image processing and deep learning for 
-                              classifying the three rice variants, with testing conducted in Tacurong City during 
-                              the second semester of 2023-2024. The limitation is that only RC160, RC438, and RC440 
-                              will be classified, while other varieties will be marked as unidentified.</p>  
-                            
-                        </div>
-                      </div>
-                  </div>
-
-
-
-
-                </div>
-              </div>
-            </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-right">
-        <h2>Contact</h2>
-        <p>If you have a question, would you like to discuss a project, or are interested in working together, Feel
-            free to reach out! I'm always open to new opportunities and collaboration. you can contact me through any methods below:
-        </p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-right" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-5">
-
-            <div class="info-wrap">
-              <div class="info-item d-flex" data-aos="fade-right" data-aos-delay="200">
-                <i class="bi bi-geo-alt flex-shrink-0"></i>
-                <div>
-                  <h3  style="color: #149ddd;">Address</h3>
-                  <p>P. Faustino Punturin, Valenzuela City</p>
-                </div>
-              </div><!-- End Info Item -->
-
-              <div class="info-item d-flex" data-aos="fade-right" data-aos-delay="300">
-                <i class="bi bi-telephone flex-shrink-0"></i>
-                <div>
-                  <h3 style="color: #149ddd;">Call Me</h3>
-                  <p>+63 965 2848 283</p>
-                </div>
-              </div><!-- End Info Item -->
-
-              <div class="info-item d-flex" data-aos="fade-right" data-aos-delay="400">
-                <i class="bi bi-envelope flex-shrink-0"></i>
-                <div>
-                  <h3 style="color: #149ddd;">Email Me</h3>
-                  <p>zeke.laguiab@gmail.com</p>
-                </div>
-              </div><!-- End Info Item -->
-
-               </div>
-          </div>
-
-          <div class="col-lg-7">
-            <form action="" method="post" class="php-email-form" data-aos="fade-right" data-aos-delay="200">
-              <div class="row gy-4">
-
-                <div class="col-md-12">
-                  <label for="email-field" class="pb-2">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email-field" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <label for="subject-field" class="pb-2">Subject</label>
-                  <input type="text" class="form-control" name="subject" id="subject-field" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <label for="message-field" class="pb-2">Message</label>
-                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                  <button type="submit">Send Message</button>
-                </div>
-
-              </div>
-            </form>
-          </div><!-- End Contact Form -->
-
+       
+        <div class="col-md-4" data-aos="fade-up">
+            <h4>UI/UX Design</h4>
+            <p>Creating user-centric designs that focus on both aesthetics and functionality. I help businesses establish a strong visual identity and ensure seamless user experiences through intuitive, interactive, and mobile-responsive designs.</p>
+            
         </div>
-
+        <div class="col-md-4" data-aos="fade-left">
+          <h4>Database Management</h4>
+          <p>Implementing and maintaining efficient database solutions to ensure optimal performance, security, and scalability. I work with various database technologies like MySQL to support your business needs.</p>
+        </div>
       </div>
+    </div>
+  </section>
 
-    </section><!-- /Contact Section -->
+  <!-- Tools Section -->
+  <section id="tools" class="py-5 mb-5">
+    <div class="container">
+      <h2 class="section-title">Tools I Use</h2>
+      <div class="row">
+        <div class="col-lg-12 text-center" data-aos="fade-right" >
+          <img src="assets/images/html5.png" alt="HTML5" class="tool-icon" title="HTML5">
+          <img src="assets/images/css.png" alt="CSS" class="tool-icon" title="CSS3">
+          <img src="assets/images/bootstrap.png" alt="Bootstrap" class="tool-icon" title="Bootsrap">
+          <img src="assets/images/php.png" alt="PHP" class="tool-icon" title="PHP">
+        </div>
+        <div class="col-lg-12 text-center" data-aos="fade-left">
+          <img src="assets/images/mysql.png" alt="MySQL" class="tool-icon" title="MySQL">
+          <img src="assets/images/vscode.png" alt="VSCode" class="tool-icon" title="VSCode">
+          <img src="assets/images/github.png" alt="GitHub" class="tool-icon" title="GitHub">
+          <img src="assets/images/xampp.png" alt="XAMPP" class="tool-icon" title="XAMPP">
+        </div>
+      </div>
+    </div>
+  </section>
 
-  </main>
 
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <!-- Skills Section -->
+  <section id="skills" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="section-title" >Skills</h2>
 
-  <!-- Preloader -->
-  <div id="preloader"></div>
+      <div class="row">
+        <div class="col-lg-6"  data-aos="fade-right">
+            <h3 class="mt-4">Technical Skills</h3>
+            <ul class="list-unstyled">
+              <li><strong>Hardware Engineering:</strong> Installation, maintenance, and troubleshooting of computer systems and peripherals.</li>
+              <li><strong>Networking:</strong> Proficient in TCP/IP, LAN/WAN setup, and network troubleshooting.</li>
+              <li><strong>Web Development:</strong> HTML, CSS (Bootstrap), JavaScript, PHP (CodeIgniter), MySQL, and basic understanding of WordPress.</li>
+              <li><strong>Microsoft Office:</strong> Proficient in MS Word, Excel, and PowerPoint.</li>
+            </ul>
+        </div>
+        <div class="col-lg-6"  data-aos="fade-left">
+            <h3 class="mt-4">Soft Skills</h3>
+            <ul class="list-unstyled">
+              <li><strong>Problem Solving:</strong> Strong analytical and troubleshooting abilities in resolving technical issues.</li>
+              <li><strong>Collaborative:</strong> Effective team player with excellent communication skills, able to work well in collaborative environments.</li>
+              <li><strong>Adaptability:</strong> Quick learner who can easily adapt to new technologies and methodologies.</li>
+              <li><strong>Time Management:</strong> Capable of handling multiple tasks and projects efficiently to meet deadlines.</li>
+            </ul>
+        </div>
+      </div>
+  
+      <!-- Technical Skills Section -->
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  
+      <!-- Soft Skills Section -->
 
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
+    </div>
+  </section>
 
+  <!-- Projects Section -->
+  <section id="projects" class="py-5">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-left">Projects</h2>
+      <div class="row">
+        <div class="col-md-4" data-aos="fade-up">
+          <div class="project-card">
+            <img src="assets/images/Thin can Vendo machine.png" alt="Project 1">
+            <h5>Thin Can Vendo Machine</h5>
+            <p>This project introduces an innovative solution to provide reliable campus internet 
+                access by exchanging recycled tin cans for connectivity. It addresses students' 
+                academic needs while promoting recycling and sustainability, bridging the gap between 
+                technology and environmental responsibility.</p>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="project-card">
+            <img src="assets/images/Rice Classifier.png" alt="Project 2">
+            <h5>Performance Investigation of Developed Rice Variant Classifier</h5>
+            <p>The Rice Variant Classifier project aims to assist the rice industry in Tacurong City,
+                 Sultan Kudarat, by using image processing to classify different rice variants.</p>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+          <div class="project-card">
+            <a href="https://www.manus-craft-shop.free.nf/" style="text-decoration: none;">
+                <img src="assets/images/ecommerce.jpg" alt="Project 3">
+                <h5>Manu's Craft Shop E-Commerce Platform</h5>
+                <p>
+                    Developed a responsive e-commerce platform for handcrafted bracelets using HTML, 
+                    CSS, Bootstrap, PHP, and MySQL. Integrated PHP Mailer for order notifications and 
+                    GCash Payment Gateway for secure transactions. Key features include product 
+                    search, filtering, secure user authentication, and an admin dashboard for managing
+                     inventory and orders.
+                </p>
+            </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5 bg-light">
+    <div class="container" data-aos="fade-left">
+      <h2 class="section-title">Contact Me</h2>
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Your Name">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Your Email">
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2023 Ezekiel Laguiab Portfolio. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
