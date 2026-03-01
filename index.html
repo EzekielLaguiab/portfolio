@@ -21,39 +21,46 @@
 
 <body>
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg sticky-top custom-navbar">
-    <div class="container">
-      <a class="navbar-brand" href="#">
-        <!-- <img src="assets/images/picture2.jpg" alt="Logo" style="height: 40px;"> Replace with your logo -->
-        Portfolio
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#services">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#tools">Tools</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#skills">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#projects">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
+<nav class="navbar navbar-expand-lg navbar-light sticky-top custom-navbar">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">Portfolio</a>
+
+    <!-- Toggler -->
+    <button class="navbar-toggler border-0" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Nav Links -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto text-center">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#services">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#tools">Tools</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>
 
 
   <!-- hero section -->
@@ -68,11 +75,6 @@
         <h1>Hello there!</h1>
         <h2>I'm <span>Ezekiel Laguiab</span>, a Web Developer</h2>
         <p>Passionate about creating responsive, dynamic,<br> and user-friendly websites to bring your ideas to life.</p>
-        <!-- <div class="social-links">
-          <a href="mailto:zeke.laguiab@gmail.com" class="gmail"><i class="bi bi-envelope"></i></a>
-          <a href="https://facebook.com/Ezekiel.laguiab1127" class="facebook"><i class="bi bi-facebook" title="Facebook"></i></a> 
-          <a href="https://linkedin.com/in/ezekiel-laguiab-3755b3327" class="linkedin"><i class="bi bi-linkedin" title="LinkedIn"></i></a>
-        </div> -->
         <a href="#about" class="btn btn-primary mt-4 mb-4">Learn More About Me</a>
       </div>
     </div>
@@ -113,92 +115,181 @@
       <h2 class="section-title" data-aos="fade-down">Services</h2>
       <div class="row">
         <div class="col-md-4" data-aos="fade-right">
-            <h4 >Web Development</h4>
+          <div class="service-card">
+            <h4>Web Development</h4>
             <ul>
-                <li>Custom website solutions development using CodeIgniter and PHP.</li>
-                <li>Expertise in creating e-commerce platforms using WordPress with WooCommerce and Shopify.</li>
-                <li>Responsive design for a seamless user experience across devices.</li>
-                <li>Designing and managing relational databases using MySQL to ensure efficient data handling and security.</li>
+              <li>Custom website solutions using CodeIgniter and PHP.</li>
+              <li>E-commerce platforms using WordPress & Shopify.</li>
+              <li>Responsive cross-device design.</li>
+              <li>MySQL database management.</li>
             </ul>
+          </div>
         </div>
        
-        <div class="col-md-4" data-aos="fade-up">
+        <div class="col-md-4" data-aos="fade-right">
+          <div class="service-card">
             <h4>UI/UX Design</h4>
             <ul><li>
                 Creating user-centric designs that focus on both aesthetics and functionality. 
                 I help businesses establish a strong visual identity and ensure seamless user experiences through intuitive, interactive, and mobile-responsive designs.
             </li></ul>
+            </div>
         </div>
 
-        <div class="col-md-4" data-aos="fade-left">
+        <div class="col-md-4" data-aos="fade-right">
+          <div class="service-card">
             <h4>Database Management</h4>
             <ul><li>
                 Implementing and maintaining efficient database solutions to ensure optimal performance, security, and scalability. 
                 I work with database technologies such as MySQL to support business requirements.
             </li>
+            </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Tools Section -->
-  <section id="tools" class="py-5 mb-5">
-    <div class="container">
-      <h2 class="section-title"> Tools</h2>
-      <div class="row">
-        <div class="col-lg-12 text-center" data-aos="fade-right" >
-          <img src="assets/images/html5.png" alt="HTML5" class="tool-icon" title="HTML5">
-          <img src="assets/images/css.png" alt="CSS" class="tool-icon" title="CSS3">
-          <img src="assets/images/JS.png" alt="JS" class="tool-icon" title="JS">
-          <img src="assets/images/bootstrap.png" alt="Bootstrap" class="tool-icon" title="Bootsrap">
-          <img src="assets/images/wordpress.png" alt="WordPress" class="tool-icon" title="WordPress">
-        </div>
-        <div class="col-lg-12 text-center" data-aos="fade-left">
-          <img src="assets/images/php.png" alt="PHP" class="tool-icon" title="PHP">
-          <img src="assets/images/mysql.png" alt="MySQL" class="tool-icon" title="MySQL">
-          <img src="assets/images/vscode.png" alt="VSCode" class="tool-icon" title="VSCode">
-          <img src="assets/images/github.png" alt="GitHub" class="tool-icon" title="GitHub">
-          <img src="assets/images/xampp.png" alt="XAMPP" class="tool-icon" title="XAMPP">
-        </div>
+<section id="tools">
+  <div class="container text-center">
+    <h2 class="section-title">Tools</h2>
+
+    <div class="tool-grid">
+
+      <div class="tool-card">
+        <img src="assets/images/html5.png" alt="HTML5">
+        <span>HTML5</span>
       </div>
-    </div>
-  </section>
 
-
-
-  <!-- Skills Section -->
-  <section id="skills" class="py-5 bg-light">
-    <div class="container">
-      <h2 class="section-title" > Skills</h2>
-
-      <div class="row">
-        <div class="col-lg-6"  data-aos="fade-right">
-            <h3 class="mt-4">Technical Skills</h3>
-            <ul class="list-unstyled">
-              <li><strong>Hardware Engineering:</strong> Installation, maintenance, and troubleshooting of computer systems and peripherals.</li>
-              <li><strong>Networking:</strong> Proficient in TCP/IP, LAN/WAN setup, and network troubleshooting.</li>
-              <li><strong>Web Development:</strong> HTML, CSS (Bootstrap), JavaScript, PHP (CodeIgniter), MySQL, Xampp and WordPress.</li>
-              <li><strong>Microsoft Office:</strong> Proficient in MS Word, Excel, and PowerPoint.</li>
-            </ul>
-        </div>
-        <div class="col-lg-6"  data-aos="fade-left">
-            <h3 class="mt-4">Soft Skills</h3>
-            <ul class="list-unstyled">
-              <li><strong>Problem Solving:</strong> Strong analytical and troubleshooting abilities in resolving technical issues.</li>
-              <li><strong>Collaborative:</strong> Effective team player with excellent communication skills, able to work well in collaborative environments.</li>
-              <li><strong>Adaptability:</strong> Quick learner who can easily adapt to new technologies and methodologies.</li>
-              <li><strong>Time Management:</strong> Capable of handling multiple tasks and projects efficiently to meet deadlines.</li>
-            </ul>
-        </div>
+      <div class="tool-card">
+        <img src="assets/images/css.png" alt="CSS3">
+        <span>CSS3</span>
       </div>
-  
-      <!-- Technical Skills Section -->
 
-  
-      <!-- Soft Skills Section -->
+      <div class="tool-card">
+        <img src="assets/images/JS.png" alt="JavaScript">
+        <span>JavaScript</span>
+      </div>
+
+      <div class="tool-card">
+        <img src="assets/images/bootstrap.png" alt="Bootstrap">
+        <span>Bootstrap</span>
+      </div>
+
+      <div class="tool-card">
+        <img src="assets/images/php.png" alt="PHP">
+        <span>PHP</span>
+      </div>
+
+      <div class="tool-card">
+        <img src="assets/images/mysql.png" alt="MySQL">
+        <span>MySQL</span>
+      </div>
+
+      <div class="tool-card">
+        <img src="assets/images/github.png" alt="GitHub">
+        <span>GitHub</span>
+      </div>
+
+      <div class="tool-card">
+        <img src="assets/images/vscode.png" alt="VSCode">
+        <span>VS Code</span>
+      </div>
+      <div class="tool-card">
+        <img src="assets/images/wordpress.png" alt="VSCode">
+        <span>WordPress</span>
+      </div>
+      <div class="tool-card">
+        <img src="assets/images/xampp.png" alt="VSCode">
+        <span>Xampp</span>
+      </div>
 
     </div>
-  </section>
+  </div>
+</section>
+
+
+
+ <!-- Skills Section -->
+<section id="skills">
+  <div class="container">
+
+    <div class="text-center mb-5">
+      <h2 class="section-title" data-aos="fade-up">Skills</h2>
+      <p class="text-muted">A blend of technical expertise and professional strengths.</p>
+    </div>
+
+    <div class="row g-4">
+
+      <!-- Technical Skills -->
+      <div class="col-lg-6" data-aos="fade-right">
+        <div class="skills-card">
+
+          <h4 class="mb-4">Technical Skills</h4>
+
+          <div class="skill-item">
+            <div class="skill-header">
+              <span>Hardware Engineering</span>
+              <span>90%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width:90%"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-header">
+              <span>Networking</span>
+              <span>85%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width:85%"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-header">
+              <span>Web Development</span>
+              <span>80%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width:80%"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-header">
+              <span>Microsoft Office</span>
+              <span>95%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width:95%"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Soft Skills -->
+      <div class="col-lg-6" data-aos="fade-left">
+        <div class="skills-card">
+
+          <h4 class="mb-4">Soft Skills</h4>
+
+          <div class="soft-skill-wrapper">
+            <span class="soft-badge">Problem Solving</span>
+            <span class="soft-badge">Team Collaboration</span>
+            <span class="soft-badge">Communication</span>
+            <span class="soft-badge">Adaptability</span>
+            <span class="soft-badge">Time Management</span>
+            <span class="soft-badge">Leadership</span>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
 
 <!-- Projects Section -->
 <section id="projects" class="py-5 bg-white">
@@ -307,17 +398,52 @@
   </div>
 </section>
 
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2026 Ezekiel Laguiab Portfolio. All Rights Reserved.</p>
-  </footer>
+<footer class="modern-footer">
+  <div class="container">
+
+    <div class="footer-content">
+
+      <div class="footer-left">
+        <h5>Ezekiel Laguiab</h5>
+        <p>Building clean, responsive, and modern web experiences.</p>
+      </div>
+
+      <div class="footer-right">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 Ezekiel Laguiab. All Rights Reserved.</p>
+    </div>
+
+  </div>
+</footer>
 
   <!-- Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
   <script>
-    AOS.init();
-  </script>
+  AOS.init();
+
+  // Navbar background on scroll
+  window.addEventListener("scroll", function () {
+    const navbar = document.querySelector(".custom-navbar");
+    navbar.classList.toggle("scrolled", window.scrollY > 50);
+  });
+
+    document.querySelectorAll('.nav-link').forEach(link => {
+    link.addEventListener('click', () => {
+      const navbarCollapse = document.querySelector('.navbar-collapse');
+      if (navbarCollapse.classList.contains('show')) {
+        new bootstrap.Collapse(navbarCollapse).toggle();
+      }
+    });
+  });
+</script>
 </body>
 
 </html>
