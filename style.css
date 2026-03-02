@@ -722,11 +722,26 @@ html {
 @media (max-width: 991px) {
 
   .navbar-collapse {
-    /* background: #ffffff; */
+    background: #ffffffe0;
     padding: 10px;
     border-radius: 16px;
     margin-top: 10px;
     box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+
+    /* NEW animation setup */
+    position: absolute;
+    top: 70px; /* adjust depending on navbar height */
+    right: 15px;
+    width: 250px;
+
+    transform: translateX(120%);
+    opacity: 0;
+    transition: transform 0.4s ease, opacity 0.3s ease;
+  }
+
+  .navbar-collapse.show {
+    transform: translateX(0);
+    opacity: 1;
   }
 
   .navbar-nav {
@@ -751,8 +766,9 @@ html {
     border-radius: 10px;
     padding: 6px 10px;
   }
+
   .navbar-nav .nav-item {
-  margin-bottom: 8px;
+    margin-bottom: 8px;
+  }
 }
 
-}
