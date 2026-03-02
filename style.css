@@ -723,9 +723,9 @@ html {
 
   .navbar-collapse {
     /* background: #ffffff; */
-    padding: 20px;
+    padding: 10px;
     border-radius: 16px;
-    margin-top: 15px;
+    margin-top: 10px;
     box-shadow: 0 20px 40px rgba(0,0,0,0.08);
   }
 
@@ -751,8 +751,8 @@ html {
     border-radius: 10px;
     padding: 6px 10px;
   }
-
-}
-.navbar-nav .nav-item {
+  .navbar-nav .nav-item {
   margin-bottom: 8px;
+}
+
 }
