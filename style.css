@@ -13,7 +13,10 @@ body {
 html {
   scroll-behavior: smooth;
 }
-/* Navbar Styling */
+
+/* =========================
+   Navbar
+========================= */
 .custom-navbar {
   background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(20px);
@@ -69,9 +72,10 @@ html {
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
 }
 
-/* =============================
-   Modern Footer
-============================= */
+/* =========================
+   Footer
+========================= */
+
 
 .modern-footer {
   margin-top: 80px;
@@ -222,13 +226,9 @@ html {
 }
 
 
-/* =============================
-   Modern About Section
-============================= */
-
-/* =============================
-   Ultra Modern About Section
-============================= */
+/* =========================
+   About Section
+========================= */
 
 #about {
   position: relative;
@@ -317,9 +317,10 @@ html {
     font-size: 1rem;
   }
 }
-/* =============================
-   Modern Skills Section
-============================= */
+
+/* =========================
+   Skills Section
+========================= */
 
 #skills {
   padding: 100px 0;
@@ -407,9 +408,9 @@ html {
   line-height: 1.6;
 }
 
-/* =============================
-   Modern Tools Section
-============================= */
+/* =========================
+   Tools Section
+========================= */
 
 #tools {
   padding: 100px 0;
@@ -418,7 +419,7 @@ html {
 
 .tool-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 25px;
   margin-top: 40px;
 }
@@ -449,7 +450,10 @@ html {
   color: #495057;
 }
 
-/* Projects Section */
+/* =========================
+   Projects Section
+========================= */
+
 #projects {
   padding: 80px 0;
   background-color: rgba(255, 255, 255, 0.9);
@@ -459,9 +463,9 @@ html {
   color: #333;
 }
 
-/* ==========================
-   Modern Contact Section
-========================== */
+/* =========================
+   Contact Section
+========================= */
 
 .contact-section {
   padding: 100px 20px;
@@ -525,76 +529,16 @@ html {
   border-color: #5f63c7;
 }
 
-/* Scroll Animations */
-.fade-in {
-  animation: fadeIn 1.5s ease-in-out;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-  
-
-  /* Keyframes for Background Animation */
-  @keyframes gradientBackground {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
-
-
-
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-
-  .social-links a {
-    display: inline-block; /* Makes it inline while allowing block-level properties */
-    width: 40px;
-    height: 40px;
-    margin: 0 10px; /* Adds spacing between icons */
-    background-color: blue; /* Default background color (adjust as needed) */
-    border-radius: 50%; /* Circular shape */
-    text-align: center; /* Centers icons inside the circle */
-    line-height: 40px; /* Vertically centers icons */
-    color: white; /* Icon color */
-    font-size: 22px; /* Adjust size of icons */
-    transition: background-color 0.3s, transform 0.3s; /* Smooth transition on hover */
-  }
-  
-  .social-links a:hover {
-    background-color: #5f63c7;
-  border-color: #5f63c7;
-  }
-  #hero .hero-image img {
-    border-radius: 50%;
-    width: 300px;
-    height: 300px;
-    border: 5px solid #fff;
-    object-fit: cover;
-    box-shadow: 0px 4px 15px rgba(255, 107, 107, 0.5);
-    margin-right: 30px;
-  }
-
-
-    
+/* Hero Profile Image */
+#hero .hero-image img {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  border: 5px solid #fff;
+  object-fit: cover;
+  box-shadow: 0px 4px 15px rgba(255, 107, 107, 0.5);
+  margin-right: 30px;
+}   
   @media only screen and (max-width: 576px) {
     #hero .hero-image img{
         border-radius: 50%;
